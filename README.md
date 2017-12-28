@@ -1,7 +1,6 @@
-# Bowling-Challenge
+# Bowling-ScoreBoard
 
-This was a re-attempt on the bowling challenge to practice javascript injection and logic. I believe practicing javascript
-by creating games is a good way to understand the logic. 
+This was a re-attempt on the bowling challenge to practice javascript injection and logic. I believe practicing javascript by creating games is a good way to understand the logic.
 
 # How To Use
 
