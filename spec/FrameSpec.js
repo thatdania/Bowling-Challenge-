@@ -1,5 +1,7 @@
 describe('Frame', function(){
 
+var frame
+
   beforeEach( function(){
     frame = new Frames();
   });
@@ -11,9 +13,13 @@ describe('Frame', function(){
   });
 
   describe('#finishRound', function(){
-   it('adds a round', function(){
-     expect(frame.frames).toEqual([])
+   it('adds a round when round has two elements', function(){
+     frame.round.round = [2,2]
+     frame.finishRound();
+     expect(frame.frames).toEqual([[2,2]])
     });
   });
+
+
 
 });

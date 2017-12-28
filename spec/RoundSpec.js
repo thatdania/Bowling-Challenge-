@@ -20,9 +20,9 @@ describe('Round', function(){
 
   describe('#writeScore', function(){
     it('writeScore makes sure there are two scores in one round', function(){
-      rounds.roll(2)
-      rounds.roll(2)
-      rounds.roll(2)
+      for(var i = 0; i < 2; i++) {
+        rounds.roll(2);
+      }
       rounds.writeScore();
       expect(rounds.round).toEqual([2,2])
     });
